@@ -1,0 +1,124 @@
+{%  extends 'base.html'   %}
+{% load static %}
+{% block content%}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <main role="main">
+      <div class="album py-5 bg-light">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="{% static 'pages/image/ap1.jpg' %}" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Fried Oyster <br />
+                    Fried Oyster Rockefeller Bites. Combine our Breaded Oysters with a few tasty ingredients.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">30 SAR</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="{% static 'pages/image/ap2.jpg' %}" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text"> smoked salmon crispy potatoes <br />
+                    Delicious Smoked Salmon annd Caviar On Crispy Potatoes.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">38 SAR</small> 
+                     
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="{% static 'pages/image/ap3.jpg' %}" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Fried Macaroni and Cheese <br />
+
+                    Crispy Crumb Coated Macaroni and Cheese Balls. Served over Creamy Marinara Sauce.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">34 SAR</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="{% static 'pages/image/ap4.jpg' %}" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Braised Short Rib Crostini with Remoulade<br >
+                    These Short Rib Crostini with Cambozola Cheese and Cherry Jam make a perfect appetizer.
+                    
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">35 SAR</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="{% static 'pages/image/ap5.jpg' %}" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Sweet Corn Tamale Crisps<br/>
+
+                    Topped with Sour Cream, Salsa, Cilantro, Avocado and Salsa Verde.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">35 SAR</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="{% static 'pages/image/ap6.jpg' %}" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Shrimp Cooktail<br/>
+
+                    Shrimp in ketchup, lemon zest and juice, horseradish, and Worcestershire sauce in small bowl.</p>
+      
+                  <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">32 SAR</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+     
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/vendor/holder.min.js"></script>
+
+    <script type="text/javascript">
+      (function(d, m){
+          var kommunicateSettings = 
+              {"appId":"3b3afe993ca2caa8214d6d228b845a9fd","popupWidget":true,"automaticChatOpenOnNavigation":true};
+          var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+          s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+          var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+          window.kommunicate = m; m._globals = kommunicateSettings;
+      })(document, window.kommunicate || {});
+  /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+  </script>
+
+  </body>
+</html>
+
+{% endblock %}
